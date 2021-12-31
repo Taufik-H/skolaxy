@@ -1,0 +1,53 @@
+{
+  "name": "vue3-apexcharts",
+  "version": "1.4.1",
+  "main": "./dist/vue3-apexcharts.common.js",
+  "private": false,
+  "scripts": {
+    "test": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "build": "vue-cli-service build --target lib --name vue3-apexcharts src/index.js && copyfiles --flat typings/*.ts dist"
+  },
+  "typings": "./typings/vue-apexcharts.d.ts",
+  "author": "Juned Chhipa",
+  "files": [
+    "src",
+    "dist/vue3-apexcharts.common.js",
+    "typings"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vuejs",
+    "vue3",
+    "charts",
+    "apexcharts.js",
+    "apexcharts"
+  ],
+  "bugs": {
+    "url": "https://github.com/apexcharts/vue3-apexcharts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apexcharts/vue3-apexcharts.git"
+  },
+  "peerDependencies": {
+    "vue": "> 3.0.0",
+    "apexcharts": "> 3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/test-utils": "^2.0.0-0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "apexcharts": "^3.26.1",
+    "typescript": "~3.9.3",
+    "vue": "^3.0.0",
+    "copyfiles": "2.4.0",
+    "vue-jest": "^5.0.0-0"
+  }
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-default bg-background text-sm;
+  }
+}
+
+@layer utilities {
+  .router-link-active {
+    @apply bg-primary-hover text-primary border-r-4 border-primary;
+  }
+  .shadow-base {
+    box-shadow: 0px 1px 10px rgba(187, 187, 187, 0.25);
+  }
+  .bg-primary-gradient {
+    background: linear-gradient(
+      136.26deg,
+      #6ba6ff 15.57%,
+      #6d6bf9 62.41%,
+      #906bfa 117.66%
+    );
+  }
+}

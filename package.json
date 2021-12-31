@@ -1,0 +1,28 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.4.2",
+    "apexcharts": "^3.32.1",
+    "gridjs": "^5.0.2",
+    "vue": "^3.2.2",
+    "vue-chartjs": "^3.5.1",
+    "vue-inline-svg": "^3.1.0",
+    "vue-router": "^4.0.10",
+    "vue3-apexcharts": "^1.4.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.2",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.4.4"
+  }
+}
