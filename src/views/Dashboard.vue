@@ -58,7 +58,7 @@
     </div>
     <section class="bg-white rounded-xl p-4 col-span-12 md:col-span-7">
       <object
-        class="h-40 bg-no-repeat bg-cover bg-center rounded-2xl"
+        class="h-40 bg-no-repeat bg-cover bg-center rounded-2xl w-full"
         :style="{ backgroundImage: `url(${bgProfile})` }"
       ></object>
       <div class="px-6">
@@ -66,9 +66,9 @@
           <div
             class="p-2 w-36 lg:w-full bg-white rounded-lg col-span-12 lg:col-span-4"
           >
-            <img src="@/assets/img/photo-profile.png" class="mx-auto" />
+            <img src="@/assets/img/photo-profile.png" class="mx-auto " />
           </div>
-          <div class="col-span-10 lg:col-span-6">
+          <div class="col-span-10 lg:col-span-6 ">
             <h1 class="font-bold text-lg text-gray-800">Muhaecal Dwi</h1>
             <div class="grid grid-cols-2 gap-1">
               <div class="flex space-x-1 items-center">

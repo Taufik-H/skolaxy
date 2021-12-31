@@ -26,7 +26,7 @@
         </div>
         <div class="text-lg font-bold text-dark p-2">Ulangan</div>
       </div>
-      <router-link to="/test-page" class="flex text-md w-full justify-end self-end"><span class=" h-auto px-3 py-2 hover:bg-white hover:text-red-400 border border-red-400 rounded-full text-white bg-red-400 text-md font-bold transition duration-300 ">Lihat Tugas</span></router-link>
+      <router-link to="/test-page" class="flex text-md w-full justify-end self-end"><span class=" h-auto px-3 py-2 hover:bg-white hover:text-red-400 border border-red-400 rounded-full text-white bg-red-400 text-md font-bold transition duration-300 ">Lihat Ulangan</span></router-link>
     </div>
     </div>
   </div>
