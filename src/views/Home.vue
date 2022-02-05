@@ -895,7 +895,7 @@
         </div>
         <img
           data-aos="fade-left"
-          class="md:w-7/12 lg:w-3/4"
+          class="md:w-7/12 lg:w-1/2"
           src="/src/assets/svg/landing-meet(2).svg"
         />
       </div>
