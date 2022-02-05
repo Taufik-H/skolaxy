@@ -1,25 +1,27 @@
 <template>
-    <div class="flex mb-4 items-center">
+    <div class="flex mb-5 items-center ">
     <router-link to="/kelas-page">
     <img src="/src/assets/svg/back.svg" alt="" class="p-3  bg-primary rounded-lg hover:bg-blue-400 ">
     </router-link>
     <span class="ml-10 text-xl font-bold">Kembali</span>
 </div>
-    <section
-    class="my-4 w-full h-32 rounded-lg px-8 flex items-start relative bg-no-repeat bg-cover bg-center"
-    style="background-image: url('/src/assets/img/bg-banner.png')">
-    <img src="@/assets/svg/archery.svg" class="pr-3 py-6" />
-    <div class="text-white py-6">
-      <h1 class="xl:text-2xl font-bold">Tugas Basis Data</h1>
-      <p class="xl:text-md ">Tengat : 21 Desember 2021</p>
+    <section class="relative w-full">
+   
+    <img src="@/assets/img/bg-banner.png" class="my-4 w-full md:w-full h-32 rounded-lg md:px-8 flex items-start  bg-no-repeat bg-cover bg-center" alt="" >
+
+    <img src="@/assets/svg/archery.svg" class="pr-3 py-6 absolute top-0 ml-2 md:ml-16" />
+    <div class="text-white py-6 absolute top-0 ml-16 md:ml-28">
+      <h1 class="text-xl xl:text-2xl font-bold">Tugas Basis Data</h1>
+      <p class="xl:text-lg">Tengat : 21 Desember 2021</p>
 
     </div>
     <img
       src="@/assets/svg/kelas-laptop.svg"
-      class="self-end h-40 w-72 absolute right-0 hidden sm:block"
+      class="self-end h-40 w-72 absolute right-0 top-0 md:-mt-5 md:-ml-52 hidden sm:block"
     />
   </section>
-      <div class="w-full bg-white shadow-md rounded-md">
+    
+      <div class="w-full bg-white shadow-md rounded-md mb-5">
           <div class="grid md:grid-cols-2 justify-center ">
               <div class="p-10">
                   <span class="text-lg font-bold text-dark">Tugas Membuat Database</span>
