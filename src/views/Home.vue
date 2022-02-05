@@ -88,6 +88,7 @@
               text-gray-800
               rounded-full
               md:mt-8 md:ml-4
+              z-50
             "
             >Masuk
           </router-link>
@@ -102,6 +103,7 @@
               text-white
               rounded-full
               md:mt-8 md:ml-4
+              z-50
             "
             >Daftar
           </router-link>
@@ -119,7 +121,7 @@
           mx-auto
           flex flex-col
           lg:flex-row
-          
+          z-0
           items-start
         "
       >
@@ -179,6 +181,7 @@
                 px-6
                 -mt-8
                 btn-zoom
+                z-50
               "
             >
               Daftar Sekarang
@@ -562,7 +565,9 @@
                     py-3
                     w-full
                     font-medium
+                    
                     btn-zoom
+                    
                   "
                   style="background: rgba(35, 189, 238, 0.9)"
                 >
