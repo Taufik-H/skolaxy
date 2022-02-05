@@ -78,7 +78,7 @@
           "
         >
           <router-link
-            to="/login"
+            to="/dashboard"
             class="
               px-10
               py-3
@@ -91,20 +91,21 @@
             "
             >Masuk
           </router-link>
-          <a
+          <router-link
+            to="/dashboard"
             class="
               px-10
               py-3
               mt-2
               text-sm text-center
-              bg-primary
+              bg-blue-500
               text-white
               rounded-full
               md:mt-8 md:ml-4
             "
-            href="#"
-            >Daftar</a
-          >
+            >Daftar
+          </router-link>
+
         </nav>
       </div>
     </div>
@@ -113,9 +114,12 @@
         class="
           max-w-screen-xl
           px-8
+          md:px-16
+          lg:px-20
           mx-auto
           flex flex-col
           lg:flex-row
+          
           items-start
         "
       >
@@ -123,7 +127,7 @@
         <div
           class="
             flex flex-col
-            w-full
+            w-auto
             lg:w-6/12
             justify-center
             lg:pt-24
@@ -137,7 +141,7 @@
           <h1
             data-aos="fade-right"
             data-aos-once="true"
-            class="my-4 text-5xl font-bold leading-tight text-white"
+            class="my-4 lg:my-0 text-5xl font-bold leading-tight text-white mb-4"
           >
             Tetap <span class="text-yellow-200">sehat</span> & semangat belajar
             dirumah.
@@ -146,7 +150,7 @@
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-delay="300"
-            class="leading-normal text-lg mb-8 text-white"
+            class="leading-normal text-lg mb-12 text-white"
           >
             Tetap produktif & interaktif dalam belajar dikala pandemi dengan
             melakukan pembelajaran menggunakan Skolaxy
@@ -164,7 +168,7 @@
               md:space-x-5
             "
           >
-            <router-link to="/register"
+            <router-link to="/dashboard"
               class="
                 lg:mx-0
                 bg-primary
@@ -172,7 +176,8 @@
                 font-bold
                 rounded-full
                 py-4
-                px-9
+                px-6
+                -mt-8
                 btn-zoom
               "
             >
@@ -246,11 +251,12 @@
       class="
         container
         px-4
-        lg:px-8
+        lg:px-0
         mx-auto
         max-w-screen-xl
         text-gray-700
         overflow-x-hidden
+        
       "
     >
       <!-- All-In-One Cloud Software. -->
@@ -492,7 +498,7 @@
                 >
                   PUNYA AKUN
                 </h1>
-                <router-link to="/login"
+                <router-link to="/dashboard"
                   class="
                     rounded-full
                     text-white
@@ -546,7 +552,7 @@
                 >
                   BELUM PUNYA AKUN
                 </h1>
-                <router-link to="/register"
+                <router-link to="/dashboard"
                   class="
                     mx-auto
                     rounded-full
@@ -578,7 +584,7 @@
               w-12
               h-12
               z-0
-              -left-4
+              -left-0
               -top-3
               animate-pulse
             "
@@ -588,19 +594,17 @@
             <span class="text-primary">Dapat dilakukan di Skolaxy</span>
           </h1>
           <p class="py-5 lg:pr-32">
-            Skilline’s school management software helps traditional and online
-            schools manage scheduling, attendance, payments and virtual
-            classrooms all in one secure cloud-based system.
-          </p>
+            Skolaxy school memanajemen segala aktivitas yang dilakukan di sekolah secara online.
+            seperti layaknya sekolah offline.</p>
           <a href="" class="underline">Learn More</a>
         </div>
         <div data-aos="fade-left" class="sm:w-1/2 relative mt-10 sm:mt-0">
           <div
             style="background: #23bdee"
-            class="floating w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"
+            class="floating w-24 h-24 absolute rounded-lg z-0 -top-3 -left-0"
           ></div>
           <img
-            class="rounded-xl z-40 relative"
+            class="rounded-xl  z-40 relative"
             src="/src/assets/svg/winner.svg"
             alt=""
           />
@@ -637,14 +641,14 @@
           <div
             class="
               bg-yellow-500
-              w-40
-              h-40
+              w-32
+              h-32
               floating
               absolute
               rounded-lg
               z-10
               -bottom-3
-              -right-3
+              -right-0
             "
           ></div>
         </div>
@@ -660,7 +664,6 @@
               h-32
               rounded-full
               absolute
-              z-0
               left-4
               -top-12
               animate-pulse
@@ -674,7 +677,7 @@
               h-5
               rounded-full
               absolute
-              z-0
+            
               left-36
               -top-12
               animate-ping
